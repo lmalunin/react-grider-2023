@@ -22,8 +22,20 @@
   ],
   "rules": {
     "quotes": [
-      "warn",
-      "single"
+      "error",
+      "single",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "@typescript-eslint/quotes": [
+      "error",
+      "single",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
     ]
   },
   "settings": {
